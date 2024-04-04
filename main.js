@@ -5,7 +5,7 @@ const footer=document.getElementById('foo');
 	  about.addEventListener('click',() =>{
 		footer.scrollIntoView({behavior:'smooth'});
 		});
-function Details(){
+function toggleDetails(){
     var details=document.getElementById("details");
     var checkbox=document.getElementById("showdetail");
     if(checkbox.checked){
